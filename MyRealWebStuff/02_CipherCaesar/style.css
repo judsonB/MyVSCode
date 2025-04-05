@@ -1,0 +1,54 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+#mainWrapper
+{
+    border: 1px solid orangered;
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+}
+h1
+{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: -10px;;
+}
+textarea, #output, input
+{
+    width: 100%;
+}
+#output
+{
+    border: 1px solid black;
+    min-height: 200px;
+}
+textarea, #output
+{
+    text-transform:uppercase;
+    border-color: orangered;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+p
+{
+    margin-bottom: 10px;
+}
+.code
+{
+    font-family: 'Courier New', Courier, monospace;
+}

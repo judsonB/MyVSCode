@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="mainWrapper">
+            <h1>Transposition Cipher</h1>
+            <p>The Transposition Cipher is a permutation cipher. Rather than changing letter values you change letter locations. You start with a message and a key word. The keyword is written, then the message is written below it, wrapping the text once the message hits the end of the key word. If there are extra spaces under the keyword unfilled, they can be filled with random letters. Each column is then alphabitzed based on the key word letters (LION becomes ILNO), then put the words back into a String in the order of the columns.</p>
+            <textarea id="text" name="text" rows="4" cols="50">We ride at dawn</textarea>
+            <br>
+            <input type="text" value="Lion" id="key">
+            <br>
+            <p id="output" class="code"></p>
+        </div>
+    </body>
+    <script src="code.js"></script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="mainWrapper">
+            <header><h1>Saxon Drama Ticket Master</h1></header>
+            <main>
+                <div id="form">
+                    <p>Welcome to the Saxon Drama Ticket Kiosk</p>
+                    <p>Please fill out the form to sign up for a ticket.</p>
+                    <input type="text" id="name" placeholder="Name (First + Last)">
+                    <input type="email" id="email" placeholder="Email Address">
+                    <label for="dates">Pick one of the following dates to attend</label>
+                    <select id="dates" name="dates">
+                        <option value="03/15/2025 @ 12pm">03/15/2025 @ 12pm</option>
+                        <option value="03/15/2025 @ 6pm">03/15/2025 @ 6pm</option>
+                        <option value="03/21/2025 @ 6pm">03/21/2025 @ 6pm</option>
+                        <option value="03/22/2025 @ 12pm">03/22/2025 @ 12pm</option>
+                        <option value="03/22/2025 @ 6pm">03/22/2025 @ 6pm</option>
+                    </select>
+                    <input type="number" id="numTickets" placeholder="Number of Tickets">
+                    <button id="order">Place Order</button>
+                </div>
+                <div id="ticket">
+                    <p>Thank you for reserving your ticket through our website.</p>
+                    <p>Please print the following ticket stub and bring it with you to the event.</p>
+                    <div id="ticketStub">
+                        <fieldset id="border">
+                            <legend>ADMIT <span id="numTicketsOutput">_____</span></legend>
+                            <div id="left">
+                                
+                                <h2>Saxon Drama</h2>
+                                <h3>Ticket</h3>
+                                <p id="showOutput">_____</p>
+                            </div>
+                            <div id="right">
+                                <p><span>Name: </span><span id="nameOutput">_____</span></p>
+                                <p><span>Email: </span><span id="emailOutput">_____</span></p>
+                                <p><span>Row: </span><span id="rowOutput">_____</span></p>
+                                <p><span>Seat: </span><span id="seatOutput">_____</span></p>
+                            </div>
+                            <svg id="barcode"></svg>
+                        </fieldset>
+                    </div>
+                </div>
+            </main>
+            <footer><p>&copy;SaxonCS2025</p></footer>
+        </div>
+    </body>
+    <script src="code.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+
+</html>

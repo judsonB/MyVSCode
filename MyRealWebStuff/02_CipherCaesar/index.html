@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="mainWrapper">
+            <h1>Caesar Cipher</h1>
+            <p>The Caesar Cipher is a shift cipher. You take in a message and a "shift" value (a number from -25 to +25) and shift every letter by that shift value to get a new letter. A + 5 = F. A - 2 = Y.</p>
+            <h2>Example</h2>
+            <p class="code">WE RIDE AT DAWN | shift: -1</p>
+            <p class="code">VD QHCD ZS CZVM</p>
+            <textarea id="text" name="text" rows="4" cols="50">We ride at dawn</textarea>
+            <br>
+            <input type="range" name="shift" id="shift" min="-25" max="25" value="0">
+            <br>
+            <p>Shift: <span id="shiftVal">0</span></p>
+            <p id="output" class="code"></p>
+        </div>
+    </body>
+    <script src="code.js"></script>
+</html>
