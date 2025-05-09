@@ -128,6 +128,14 @@ public class Warrior
     p1.attack(p2);
     System.out.println(p1);
     System.out.println(p2);
-    battle(p1, p2);
+    Warrior winner = battle(p1, p2);
+    if(winner != null)
+    {
+      System.out.println("The winner is: " + winner.getName());
+    }
+    else
+    {
+      System.out.println("Both warriors have fallen!");
+    }
   }
 }

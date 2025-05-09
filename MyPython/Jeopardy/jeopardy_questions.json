@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Sounds a bit ify",
+    "questions": [
+      {
+        "question": "The keyword that introduces the first condition to be checked in a conditional statement.",
+        "answer": "What is 'if'?",
+        "points": 200
+      },
+      {
+        "question": "This keyword is used to specify a block of code that runs if the initial 'if' condition is false.",
+        "answer": "What is 'else'?",
+        "points": 400
+      },
+      {
+        "question": "Short for 'else if', this keyword allows you to check multiple conditions in sequence.",
+        "answer": "What is 'elif'?",
+        "points": 600
+      },
+      {
+        "question": "A boolean value that represents the absence of a true condition.",
+        "answer": "What is 'False'?",
+        "points": 800
+      }
+    ]
+  },
+  {
+    "name": "Loopy 4 U",
+    "questions": [
+      {
+        "question": "A control flow statement that allows you to repeatedly execute a block of code for a specific number of times.",
+        "answer": "What is a 'for' loop?",
+        "points": 200
+      },
+      {
+        "question": "The built-in Python function commonly used to generate a sequence of numbers for iteration in a 'for' loop.",
+        "answer": "What is 'range()'?",
+        "points": 400
+      },
+      {
+        "question": "The variable that typically takes on the value of each item in a sequence during a 'for' loop.",
+        "answer": "What is the iteration variable?",
+        "points": 600
+      },
+      {
+        "question": "This statement, when encountered inside a 'for' loop, immediately terminates the loop.",
+        "answer": "What is 'break'?",
+        "points": 800
+      }
+    ]
+  },
+  {
+    "name": "While We're Looping",
+    "questions": [
+      {
+        "question": "A control flow statement that repeatedly executes a block of code as long as a given condition is true.",
+        "answer": "What is a 'while' loop?",
+        "points": 200
+      },
+      {
+        "question": "A boolean value that keeps a 'while' loop running as long as the condition evaluates to this.",
+        "answer": "What is 'True'?",
+        "points": 400
+      },
+      {
+        "question": "This statement, when encountered inside a 'while' loop, skips the rest of the current iteration and proceeds to the next iteration.",
+        "answer": "What is 'continue'?",
+        "points": 600
+      },
+      {
+        "question": "A common mistake in 'while' loops is forgetting to update this, which can lead to an infinite loop.",
+        "answer": "What is the loop condition?",
+        "points": 800
+      }
+    ]
+  },
+  {
+    "name": "Variable Variety",
+    "questions": [
+      {
+        "question": "A fundamental data type used to store text.",
+        "answer": "What is a string ('str')?",
+        "points": 200
+      },
+      {
+        "question": "A whole number without any decimal point is an example of this data type.",
+        "answer": "What is an integer ('int')?",
+        "points": 400
+      },
+      {
+        "question": "The data type used to represent truth values (True or False).",
+        "answer": "What is a boolean ('bool')?",
+        "points": 600
+      },
+      {
+        "question": "The symbol used to perform addition on numerical variables.",
+        "answer": "What is the plus sign ('+')?",
+        "points": 800
+      }
+    ]
+  },
+  {
+    "name": "Functionally Speaking",
+    "questions": [
+      {
+        "question": "The keyword used to create a new function in Python.",
+        "answer": "What is 'def'?",
+        "points": 200
+      },
+      {
+        "question": "The values that are passed into a function when it is called.",
+        "answer": "What are arguments?",
+        "points": 400
+      },
+      {
+        "question": "The statement used within a function to send a value back to the caller.",
+        "answer": "What is 'return'?",
+        "points": 600
+      },
+      {
+        "question": "The names given to the input values that a function expects to receive.",
+        "answer": "What are parameters?",
+        "points": 800
+      }
+    ]
+  },
+  {
+    "name": "String Things Along",
+    "questions": [
+      {
+        "question": "A string method that returns a new string with all characters in lowercase.",
+        "answer": "What is '.lower()'?",
+        "points": 200
+      },
+      {
+        "question": "The string method used to remove leading and trailing whitespace from a string.",
+        "answer": "What is '.strip()'?",
+        "points": 400
+      },
+      {
+        "question": "The method that allows you to check if a string ends with a specific suffix.",
+        "answer": "What is '.endswith()'?",
+        "points": 600
+      },
+      {
+        "question": "The operation of joining multiple strings together.",
+        "answer": "What is concatenation?",
+        "points": 800
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+/**
+ * @license
+ * Copyright 2024 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body
+{
+  display: flex;
+  background-color: #f0f0f0;
+}
+
+/* Shift the flag icon to the right so that the bottom of the flagpole
+ * aligns with the anchor point. */
+.flag-icon {
+  position: relative;
+  left: 10px;
+}
+gmp-map
+{
+  width: 50%;
+  height: 100%;
+}
+#rightSide
+{
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.item
+{
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.selected
+{
+  background-color: orange;
+}

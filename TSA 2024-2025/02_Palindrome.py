@@ -1,0 +1,5 @@
+text = input()
+lower = text.lower()
+lower = lower.replace(" ", "").replace(",", "").replace(".", "").replace("!", "").replace("?", "")
+lower = lower.replace("'", "").replace('"', "").replace(":", "").replace(";", "").replace("-", "").replace("_", "")
+print(f"{text} is a palindrome" if lower == lower[::-1] else f"{text} isn't a palindrome.")
